@@ -1,6 +1,6 @@
 // Get the current date and time
 const now = new Date();
-
+const date = now.toLocaleDateString();
 // Update the time and date elements
 // Update the clock every second
 function updateClock() {
