@@ -14,14 +14,14 @@
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Справочник инженера ПТО</a>
+        <a class="navbar-brand" href="index.html">Справочник инженера ПТО</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Общестроительные работы<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/obshestroi.html">Общестроительные работы<span class="sr-only">(current)</span></a>
                 </li>
 		<li class="nav-item active">
                     <a class="nav-link" href="#">Технологические трубопроводы<span class="sr-only">(current)</span></a>
@@ -46,6 +46,14 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-3">Добро пожаловать в справочник инженера ПТО</h1>
+		<div class="container text-right">
+                    <div class="row">
+            		<div class="col-md-12">
+                	<div class="clock">
+                    <p id="time" class="display-1"></p>
+		    <p id="date"></p>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -60,12 +68,10 @@
 
     <!-- Footer -->
     <footer class="container">
-        <p>&copy; 2024 Ваганов Александр, Практическая работа</p>
+        <p>&copy; 2024 Справочник Инженера ПТО</p>
+        </div>
+	
     </footer>
-
-    <!-- JavaScript files -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
+    <script src="script.js"></script>
 </body>
 </html>
