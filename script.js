@@ -11,5 +11,5 @@ function updateClock() {
   document.getElementById('time').innerHTML = `${hours}:${minutes}:${seconds}`;
   setTimeout(updateClock, 1000);
 }
-updateClock();;
+updateClock();
 document.getElementById('date').textContent = date;
