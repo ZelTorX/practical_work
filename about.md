@@ -33,7 +33,7 @@
                     <a class="nav-link" href="https://zeltorx.github.io/practical_work/equip.html">Оборудование<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://zeltorx.github.io/practical_work/about.html">О сайте</a>
+                    <a class="nav-link" href="about.md">О сайте</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://zeltorx.github.io/practical_work/contact.html">Контакты</a>
